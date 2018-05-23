@@ -13,5 +13,5 @@ version1.0.0.0
 　Plugin_BymChnWebSocket.dllを棒読みちゃんbouyomichan.exeと同じフォルダに格納して棒読みちゃんを起動してください。  
 　![棒読みちゃんプラグイン](https://qiita-image-store.s3.amazonaws.com/0/252253/be2cec1a-9a1f-5643-67cf-7c7349cf83f5.jpeg)  
 
-**使用方法**
+**使用方法**  
 　[example](https://github.com/ryujimiya/Plugin_BymChnWebSocket/blob/master/src/example/)
