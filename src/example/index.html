@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bouyomichan_client.js"></script>
+    <script>
+    /**
+     * フォームが送信された
+     */
+    function onSubmit(e) {
+        let cmntStr = $('#comment').val();
+        console.log(cmntStr);
+
+        // 棒読みちゃんにコメントを送信する
+        let bouyomiChanClient = new BouyomiChanClient();
+        bouyomiChanClient.talk(cmntStr);
+
+        return false;
+    }
+    
+    $(function() {
+        $('#form').submit(onSubmit);
+    });
+    </script>
+  </head>
+  <body>
+    <form method="get" id="form" action="javascript:void(0)">
+      <input type="text" name="comment" id="comment" value="">
+      <input type="submit" value="送信">
+    </form>
+
+  </body>
+
+</html>

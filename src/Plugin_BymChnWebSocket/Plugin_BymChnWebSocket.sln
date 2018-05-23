@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin_BymChnWebSocket", "Plugin_BymChnWebSocket\Plugin_BymChnWebSocket.csproj", "{169CA507-E901-438D-A486-059DA01F9287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169CA507-E901-438D-A486-059DA01F9287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169CA507-E901-438D-A486-059DA01F9287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169CA507-E901-438D-A486-059DA01F9287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169CA507-E901-438D-A486-059DA01F9287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60201F21-1505-4C98-AF8D-F6172A36CAE8}
+	EndGlobalSection
+EndGlobal
